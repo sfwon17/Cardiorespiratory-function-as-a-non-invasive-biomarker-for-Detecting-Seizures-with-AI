@@ -4,6 +4,8 @@ The codes and algorithms are based on:
 1. https://github.com/PatrickYu1994/Epilepsy  
 2. https://dl.acm.org/doi/fullHtml/10.1145/3373017.3373055
 
+Refer to the list above for more information about dataset and pre-processing steps. Contact me if you have any questions. 
+
 ## Requirements
 - Python 3
 - Tensorflow
