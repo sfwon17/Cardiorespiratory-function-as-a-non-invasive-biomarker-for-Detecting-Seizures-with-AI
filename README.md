@@ -19,7 +19,7 @@ Features that were considered:
 3. Zero Crossing
 4. PSD
 5. Hjorth parameters
-6. entropy 
+6. Entropy 
 7. Amplitude 
 
 ## Metrics
