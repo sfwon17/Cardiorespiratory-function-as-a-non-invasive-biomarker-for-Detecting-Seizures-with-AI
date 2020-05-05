@@ -4,7 +4,7 @@ The codes and algorithms are based on:
 1. https://github.com/PatrickYu1994/Epilepsy  
 2. https://dl.acm.org/doi/fullHtml/10.1145/3373017.3373055
 
-Refer to the list above for more information about dataset and pre-processing steps. Contact me if you have any questions. 
+Refer to the list above for more information about dataset and pre-processing steps. Contact wongsh@deakin.edu.au or zongyuan.ge@monash.edu if you have any questions. If you have questions with the data set as it is not publicly available, please contact shobi.sivathamboo@monash.edu
 
 ## Requirements
 - Python 3
