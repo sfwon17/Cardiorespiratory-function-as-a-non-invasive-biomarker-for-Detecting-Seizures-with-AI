@@ -14,6 +14,9 @@ Refer to the list above for more information about dataset and pre-processing st
 ## Overview
 The task is to create a seizure detection algorithm that can detect seizure and non-seizure segment using EEG and cardiorespiratory data such as ECG, EMG, THO and Air-flow. The goal was to improve the result produced in the initial stage. Additional steps such as feature engineeri,extraction and selection, pre-processing and metrics evaluation were taken.
 
+## ## Explanation
+Run pre-processing.py and features_generation.py in that order and will produce 3 files which are training, validation and testing set. 
+
 ## Features
 Features that were considered:
 1. Kurtosis
