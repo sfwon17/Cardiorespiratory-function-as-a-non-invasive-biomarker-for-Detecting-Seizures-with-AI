@@ -4,7 +4,7 @@ The codes and algorithms are based on:
 1. https://github.com/PatrickYu1994/Epilepsy  
 2. https://dl.acm.org/doi/fullHtml/10.1145/3373017.3373055
 
-Refer to the list above for more information about dataset and pre-processing steps. Contact wongsh@deakin.edu.au or zongyuan.ge@monash.edu if you have any questions. If you have questions with the data set as it is not publicly available, please contact shobi.sivathamboo@monash.edu
+Refer to the list above for more information about dataset and pre-processing steps. Contact wongsh@deakin.edu.au or zongyuan.ge@monash.edu if you have any questions. If you have questions regarding the data set as it is not publicly available, please contact shobi.sivathamboo@monash.edu
 
 ## Requirements
 - Python 3
@@ -12,10 +12,10 @@ Refer to the list above for more information about dataset and pre-processing st
 - Keras 
 
 ## Overview
-The task is to create a seizure detection algorithm that can detect seizure and non-seizure segment using EEG and cardiorespiratory data such as ECG, EMG, THO and Air-flow. The goal was to improve the result produced in the initial stage. Additional steps such as feature engineeri,extraction and selection, pre-processing and metrics evaluation were taken.
+The task is to create a seizure detection algorithm that can detect seizure and non-seizure segment using EEG and cardiorespiratory data such as ECG, EMG, THO and Air-flow. The goal was to improve the result produced in the initial stage. Additional steps such as feature engineering,extraction and selection, pre-processing and metrics evaluation were taken.
 
 ## Explanation
-Run pre-processing.py and features_generation.py in that order and will produce 3 files which are training, validation and testing set. 
+Run pre-processing.py and features_generation.py in that order and will produce 3 files which are training, validation and testing set. Please look at the subfolders for different models used for the prediction. Dataset were run on batches because of memory limitation and will not affect the final result of a model significantly.  
 
 ## Features
 Features that were considered:
@@ -30,7 +30,7 @@ Features that were considered:
 ## Metrics
 1. AUC 
 2. Optimal Threshold (Youden Index)
-3. ACC
+3. Accuracy
 4. Proportion of seizure correctly predicted
 5. Average time taken to predict seizure
 6. Sensitivty 
