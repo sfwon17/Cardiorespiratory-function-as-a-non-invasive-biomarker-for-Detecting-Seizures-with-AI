@@ -12,7 +12,7 @@ Refer to the list above for more information about the dataset and pre-processin
 - Keras 
 
 ## Overview
-The task is to create a seizure detection algorithm that can detect seizure and non-seizure segment using EEG and cardiorespiratory data such as ECG, EMG, THO and Air-flow. The goal was to improve the result produced in the initial stage. Additional steps such as feature engineering,extraction and selection, pre-processing and metrics evaluation were taken.
+The task is to create a seizure detection algorithm that can detect seizure and non-seizure segment using EEG and cardiorespiratory data such as ECG, EMG, THO and Air-flow. The goal was to improve the result produced in the initial stage. Additional steps such as feature engineering, extraction and selection, pre-processing and metrics evaluation were taken.
 
 ## Explanation
 Run pre-processing.py and features_generation.py in that order and will produce 3 files which are training, validation and testing set. Please look at the subfolders for different models used for the prediction. Dataset were run on batches because of memory limitation and will not affect the final result of a model significantly. The final models especially traditional models might not be the best or ideal model in this scenario, but it will hopefully provide additional insight of how extracting features helps in improving the performance of the prediction. 
@@ -38,3 +38,6 @@ Features that were considered:
 8. Precision
 9. False positive rate
 10. False negative rate
+
+## Conclusion
+Despite their reduced complexity, simpler models achieved better performance compared to more complex CNN models when using extracted features. This demonstrates that simpler models, when effectively utilizing extracted features, can outperform more complex architectures, suggesting a potential shift towards efficiency and interpretability in seizure detection models.
