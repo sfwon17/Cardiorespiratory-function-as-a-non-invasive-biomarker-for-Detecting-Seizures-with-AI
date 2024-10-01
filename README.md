@@ -19,13 +19,13 @@ Run pre-processing.py and features_generation.py in that order and will produce 
 
 ## Features
 Features that were considered:
-1. Kurtosis
-2. Skewness
-3. Zero Crossing
-4. PSD
-5. Hjorth parameters
-6. Entropy 
-7. Amplitude 
+1. Statistical properties such as kurtosis and skewness
+2. Amplitude-based features
+3. Frequency-based features 
+4. Time-Frequency based features
+5. Wavelett-based features
+6. PSD
+7. Other features such as zero-crossing, entropy, Hjorth parameters
 
 ## Metrics
 1. AUC 
