@@ -1,6 +1,6 @@
 # Cardiorespiratory function as a non-invasive biomarker for detecting seizures with artificial intelligence: Utilising data from long-term patient recordings from an epilepsy monitoring unit
 
-The codes and algorithms are based on:
+The codes and algorithms are based on: 
 1. https://github.com/PatrickYu1994/Epilepsy  
 2. https://dl.acm.org/doi/fullHtml/10.1145/3373017.3373055
 
